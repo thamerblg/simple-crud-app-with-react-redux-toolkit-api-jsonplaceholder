@@ -1,0 +1,82 @@
+.button.add-user {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.button {
+  color: #000000;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 10px 15px;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 14px;
+  border: 3px solid #cfcece;
+  background-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover,
+.button.hover {
+  border-color: #2980b9;
+}
+
+.modale {
+  font-size: 12px;
+}
+.modale > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modale > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modale > .actions {
+  margin: auto;
+}
+.modale > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.modale > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(187, 187, 187);
+  padding: 5px;
+  max-width: 500px;
+  width: 90%;
+}
+.modale .content input {
+  width: 90%;
+  margin: 10px 5px;
+  line-height: 25px;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
